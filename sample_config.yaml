@@ -1,0 +1,22 @@
+price: 180
+gm_pct: 0.80
+retention: 0.85
+horizon_months: 24
+cac: 35
+
+arpu_divisor: 18   # slows the monthly ARPU proxy (was implicitly 12)
+
+
+baseline_weekly_units: 100
+weeks: 26
+elasticity: 1.1
+promo_events:
+  - {week: 6, depth: 0.15, channel: "Retail"}
+  - {week: 15, depth: 0.20, channel: "DTC"}
+  - {week: 22, depth: 0.15, channel: "Retail"}
+pull_forward_factor: 0.35
+cannibalization_factor: 0.25
+code_share: 0.35
+hero_discount_incidence: 0.10
+leakage: 0.08
+weights: {promo_days: 22, avg_depth: 28, code_share: 18, hero: 22, leakage: 10}

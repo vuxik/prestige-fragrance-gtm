@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Prestige Fragrance GTM — Local Preview</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(220px, 1fr)); gap: 16px; }
+    label { font-size: 12px; color: #333; }
+    input, textarea { width: 100%; padding: 8px; font-size: 14px; border: 1px solid #ccc; border-radius: 8px; }
+    textarea { min-height: 100px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .row { margin-bottom: 6px; }
+    .section { margin-top: 24px; }
+    .btn { background: #111; color: #fff; padding: 10px 16px; border: 0; border-radius: 10px; cursor: pointer; }
+    .btn:hover { background: #333; }
+    .note { font-size: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Prestige Fragrance GTM — Local Preview</h1>
+  <form method="post" action="/generate">
+    <div class="section">
+      <h3>Core economics</h3>
+      <div class="grid">
+        <div><label>Price (£)</label><input name="price" value="{{ price }}"></div>
+        <div><label>GM% (0–1)</label><input name="gm_pct" value="{{ gm_pct }}"></div>
+        <div><label>CAC (£)</label><input name="cac" value="{{ cac }}"></div>
+        <div><label>Retention (monthly, 0–1)</label><input name="retention" value="{{ retention }}"></div>
+        <div><label>ARPU divisor (months)</label><input name="arpu_divisor" value="{{ arpu_divisor }}"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Calendar & elasticity</h3>
+      <div class="grid">
+        <div><label>Baseline weekly units</label><input name="baseline_weekly_units" value="{{ baseline_weekly_units }}"></div>
+        <div><label>Weeks simulated</label><input name="weeks" value="{{ weeks }}"></div>
+        <div><label>Elasticity</label><input name="elasticity" value="{{ elasticity }}"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Promo events</h3>
+      <div class="row">
+        <label>One per line: <span class="note">week,depth,channel → e.g. <code>6,0.15,Retail</code></span></label>
+        <textarea name="events_text">{{ events_text }}</textarea>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Promo decomposition assumptions</h3>
+      <div class="grid">
+        <div><label>Pull-forward factor (0–1)</label><input name="pull_forward_factor" value="{{ pull_forward_factor }}"></div>
+        <div><label>Cannibalization factor (0–1)</label><input name="cannibalization_factor" value="{{ cannibalization_factor }}"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Prestige inputs (PPI)</h3>
+      <div class="grid">
+        <div><label>Code share (0–1)</label><input name="code_share" value="{{ code_share }}"></div>
+        <div><label>Hero discount incidence (0–1)</label><input name="hero_discount_incidence" value="{{ hero_discount_incidence }}"></div>
+        <div><label>Leakage (0–1)</label><input name="leakage" value="{{ leakage }}"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <button class="btn" type="submit">Generate</button>
+    </div>
+  </form>
+</body>
+</html>
